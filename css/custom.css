@@ -1,0 +1,42 @@
+.head-shadow {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(146, 146, 175), 0 0 5px rgb(140, 140, 151);
+}
+.cart-basket {
+    font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    width: 18px;
+    height: 22px;
+    color: #fff;
+    background-color: red;
+    border-radius: 40%;
+}
+.text-shadow {
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@media screen and (max-width:481px) {
+    table {
+        font-size: 4.5px;
+    }
+
+    .table td,
+    .table th {
+        padding: .1rem;
+    }
+
+    .navbar-brand {
+        font-size: large;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+    .container-sm{
+        display:inline;
+    }
+}
